@@ -8,7 +8,7 @@ const merge = (first, second) => {
       temp[k] = second[j]
       j++
       k++
-    } else  {
+    } else {
       temp[k] = first[i]
       i++
       k++
@@ -29,15 +29,16 @@ const merge = (first, second) => {
 }
 const mergeSort = (arr) => {
   const splitArray = (arr, start, end) => {
-    if (start >= end) {
-      return [arr[start]]
+    if (start == end) {
+      return
     }
-
-    const mid = Math.floor((start + end) / 2) + 1
-    const first = splitArray(arr, start, mid - 1)
-    const second = splitArray(arr, mid, end)
-    const mergedArray = merge(first, second)
-    return mergedArray
+    if (start < end) {
+      const mid = Math.floor((start + end) / 2) + 1
+      const first = splitArray(arr, start, mid - 1)
+      const second = splitArray(arr, mid, end)
+      const mergedArray = merge(first, second)
+      return mergedArray
+    }
   }
 
   return splitArray(arr, 0, arr.length - 1)

@@ -1,9 +1,6 @@
 public class MyLinkedList {
-    private ListNode head;
+    public ListNode head;
 
-    public ListNode getHead() {
-        return head;
-    }
 
     private ListNode createNewNode(int val) {
         return new ListNode(val);

@@ -1,39 +1,48 @@
- 
-
- const merge = (first, second) => {
-    
-    let i =0;
-    let j =0;
-    let k=0;
-    const temp
-    if(i < first.length && j< second.length){
-        max
-     temp[k] = second[j]
-     temp[++k]= first[i]
-     i++
-     j++
+const merge = (first, second) => {
+  let i = 0
+  let j = 0
+  let k = 0
+  const temp = []
+  while (i < first.length && j < second.length) {
+    if (first[i] > second[j]) {
+      temp[k] = second[j]
+      j++
+      k++
+    } else  {
+      temp[k] = first[i]
+      i++
+      k++
     }
-    if()
+  }
 
- }
- const mergeSort = (arr) => {
-
-    const splitArray = (arr, start, end) => {
-        if(start >= end){
-            return arr
-        }
-
-        const first = splitArray(arr, start, (start+end)/2 -1)
-        const second = splitArray(arr, (start+end)/2, end)
-        const result = merge(first, second)
-        return result
+  while (i < first.length) {
+    temp[k] = first[i]
+    i++
+    k++
+  }
+  while (j < second.length) {
+    temp[k] = second[j]
+    j++
+    k++
+  }
+  return temp
+}
+const mergeSort = (arr) => {
+  const splitArray = (arr, start, end) => {
+    if (start >= end) {
+      return [arr[start]]
     }
- }
-  
-  
-  const swap = (arr, i, j) => ([arr[i], arr[j]] = [arr[j], arr[i]])
-  
-  const x = [12, 34, 5, 78, 9, 1, 2, 74]
-  
-  console.log(mergeSort(x))
-  
+
+    const mid = Math.floor((start + end) / 2) + 1
+    const first = splitArray(arr, start, mid - 1)
+    const second = splitArray(arr, mid, end)
+    const mergedArray = merge(first, second)
+    return mergedArray
+  }
+
+  return splitArray(arr, 0, arr.length - 1)
+}
+
+const x = [12, 34, 5, 78, 9, 9, 1, 2, 74]
+
+console.log(mergeSort(x))

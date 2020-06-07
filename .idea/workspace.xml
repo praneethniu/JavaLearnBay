@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1bbdbb-f675-4818-ae31-790dee2c4bd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NextGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validParanthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearnBay/IntersectionLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearnBay/IntersectionLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mergeSort.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NextGreater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="321">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -316,18 +313,18 @@
       <updated>1591481877225</updated>
       <workItem from="1591481878688" duration="1501000" />
       <workItem from="1591483470919" duration="472000" />
-      <workItem from="1591484173049" duration="8811000" />
+      <workItem from="1591484173049" duration="9933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10784000" />
+    <option name="totallyTimeSpent" value="11906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20597738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20597738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23492064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23492064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2031746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NextGreater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="321">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

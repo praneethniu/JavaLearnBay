@@ -1,3 +1,7 @@
+package main.java;
+
+import java.util.Stack;
+
 public class MiddleElementLL {
     private static ListNode middleElement(ListNode head) {
         ListNode slow = head;
@@ -19,5 +23,6 @@ public class MiddleElementLL {
         l.insertElement(4);
         l.insertElement(5);
         System.out.println(middleElement(l.head));
+        Stack s = new Stack();
     }
 }

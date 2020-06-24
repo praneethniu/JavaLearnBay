@@ -1,3 +1,5 @@
+package main.java;
+
 //https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/
 public class IntersectionLL {
 

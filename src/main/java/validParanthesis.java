@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -38,6 +40,6 @@ public class validParanthesis {
 
     public static void main(String[] args) {
         String input = "[])";
-        System.out.println(isValid(input));
+        System.out.println("output"+ isValid( input));
     }
 }

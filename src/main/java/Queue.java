@@ -1,5 +1,3 @@
-package main.java;
-
 //Implement Queue with the help of two stacks
 //Push O(n)
 //Pop  O(1)

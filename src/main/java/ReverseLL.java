@@ -1,4 +1,4 @@
-package main.java;//https://leetcode.com/problems/reverse-linked-list/
+//https://leetcode.com/problems/reverse-linked-list/
 import java.util.List;
 public class ReverseLL {
 
